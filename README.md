@@ -144,12 +144,6 @@ Visit [http://localhost:8888](http://localhost:8888) in your browser.
 3. Choose **"Docker"** as the deployment environment
 4. Render automatically builds and runs your Docker image
 
-### Deployment Steps:
-1. Connect your GitHub repository to Render
-2. Set build command: `pip install -r requirements.txt`
-3. Set start command: `gunicorn app:app`
-4. Deploy!
-
 👉 [Live Demo](#) *[Add your Render deployment link here]*
 
 ## 📊 Model Performance
@@ -226,21 +220,13 @@ bhubaneswar-house-pricing/
 └── README.md             # Project documentation
 ```
 
-## 🤝 Contributing
+## 🔮 Future Improvements
 
-We welcome contributions to improve this project! 🎉
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-Please check the [CONTRIBUTING.md](CONTRIBUTING.md) guide for detailed setup, workflow, and guidelines.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+- Experiment with more advanced models (Random Forest, XGBoost, Gradient Boosting) to improve on the current R² score
+- Add more granular locality-level data for finer-grained predictions across Bhubaneswar
+- Build a REST API endpoint for programmatic access alongside the web UI
+- Add automated tests and CI/CD pipeline for the Flask app
+- Expand the dataset with more recent listings to keep predictions current
 
 ## 🙏 Acknowledgments
 
@@ -248,22 +234,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 - Scikit-learn documentation for machine learning implementation
 - Flask community for web framework guidance
 - Render for deployment platform
-
-## ✍️ Author
-
-**Jagan Pradhan**
-- 📧 [jaganp515@gmail.com](mailto:jaganp515@gmail.com)
-- 🔗 [LinkedIn](https://linkedin.com/in/jaganpradhan)
-- 💻 [GitHub](https://github.com/Jagan515)
-
----
-
-<div align="center">
-
-**⭐ Don't forget to star this repository if you find it helpful!**
-
-*Built with ❤️ for the Bhubaneswar real estate community*
-
-> 💡 "Containerizing apps makes them portable, reproducible, and deployment-ready anywhere."
-
-</div>
